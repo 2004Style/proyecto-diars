@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F&M Maquinarias</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="~/css/Home.css" />
+</head>
+
+<body>
+    <div class="cs-container-principal">
+        <div class="cs-container-nav">
+            <div class="cs-container-left-section">
+                <div class="cs-marca">F&M Maquinarias</div>
+                <label for="check" class="cs-menuButton">
+                    <input class="cs-input" id="check" type="checkbox" />
+                    <span class="cs-top"></span>
+                    <span class="cs-mid"></span>
+                    <span class="cs-bot"></span>
+                </label>
+            </div>
+        </div>
+        <div class="cs-container-secundario">
+            <div class="cs-container-menu" id="menu">
+                <div class="cs-container-menu-options">
+                    <a class="cs-menu-options-option-group" href="index.html">
+                        <i class="fa-solid fa-home"></i>
+                        <label class="cs-menu-options-option">Home</label>
+                    </a>
+
+                    <div class="cs-menu-options">
+                        <a class="cs-menu-options-option-group">
+                            <i class="fa-solid fa-folder"></i>
+                            <label class="cs-menu-options-option">Documentos</label>
+                        </a>
+                        <div class="cs-container-categorias">
+                            <a class="cs-menu-options-option-group cs-submenu" href="NewDocumento.html">
+                                <i class="fa-solid fa-file-circle-plus"></i>
+                                <label class="cs-menu-options-option">Agregar Documento</label>
+                            </a>
+                            <a class="cs-menu-options-option-group cs-submenu" href="DocDetails.html">
+                                <i class="fa-solid fa-file-circle-exclamation"></i>
+                                <label class="cs-menu-options-option">Ver Documentos</label>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="cs-menu-options">
+                        <a class="cs-menu-options-option-group">
+                            <i class="fa-solid fa-user-group"></i>
+                            <label class="cs-menu-options-option">Usuarios</label>
+                        </a>
+                        <div class="cs-container-categorias">
+                            <a class="cs-menu-options-option-group cs-submenu" href="NewUser.html">
+                                <i class="fa-solid fa-person-circle-plus"></i>
+                                <label class="cs-menu-options-option">Agregar Usuario</label>
+                            </a>
+                            <a class="cs-menu-options-option-group cs-submenu" href="UserDetails.html">
+                                <i class="fa-solid fa-person-circle-exclamation"></i>
+                                <label class="cs-menu-options-option">Ver Usuarios</label>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cs-container-copy">
+                    <div>&copy; 2024 - F&M Maquinarias</div>
+                </div>
+            </div>
+            <div class="cs-container-vistas">
+                <form class="cs-form-doc-register" action="post">
+                    <div class="cs-form-row-section">
+                        <div class="cs-form-doc-register-group">
+                            <div class="fas fa-address-card"></div>
+                            <input class="input" placeholder="DNI" type="text" id="dni" name="dni" required>
+                        </div>
+                        <div class="cs-form-doc-register-group">
+                            <div class="fas fa-pencil"></div>
+                            <input class="input" placeholder="Primer Nombre" type="text" id="primer_nombre" name="primer_nombre"
+                                required>
+                        </div>
+                        <div class="cs-form-doc-register-group">
+                            <div class="fas fa-pencil"></div>
+                            <input class="input" placeholder="Segundo Nombre" type="text" id="segundo_nombre" name="segundo_nombre"
+                                required>
+                        </div>
+                        <div class="cs-form-doc-register-group">
+                            <div class="fas fa-pencil"></div>
+                            <input class="input" placeholder="Primer Apellidos" type="text" id="primer_apellido" name="primer_apellido"
+                                required>
+                        </div>
+                        <div class="cs-form-doc-register-group">
+                            <div class="fas fa-pencil"></div>
+                            <input class="input" placeholder="Segundo Apellido" type="text" id="segundo_apellido"
+                                name="segundo_apellido" required>
+                        </div>
+                    </div>
+                
+                    <div class="cs-form-row-section">
+                        <div class="cs-form-doc-register-group">
+                            <div class="fas fa-envelope"></div>
+                            <input class="input" placeholder="Correo" type="email" id="correo" name="correo" required>
+                        </div>
+                        <div class="cs-form-doc-register-group">
+                            <div class="fas fa-location-dot"></div>
+                            <input class="input" placeholder="Direccion" type="text" id="direccion" name="direccion" required>
+                        </div>
+                        <div class="cs-form-doc-register-group">
+                            <div class="fas fa-phone"></div>
+                            <input class="input" placeholder="Telefono" type="text" id="telefono" name="telefono" required>
+                        </div>
+                        <div class="cs-form-doc-register-group">
+                            <div class="fas fa-calendar-day"></div>
+                            <input class="input" type="date" id="nacimiento" name="nacimiento" required>
+                        </div>
+                        <div class="cs-form-doc-register-lef-section-btns">
+                            <a href="UserInfo.html" class="cs-btns-forms-register"><span id="cs-cancelar">Cancelar</span></a>
+                            <a href="UserInfo.html" class="cs-btns-forms-register"><span id="cs-enviar">Enviar</span></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="~/js/Home.js"></script>
+</body>
+
+</html>

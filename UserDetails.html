@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F&M Maquinarias</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="~/css/Home.css" />
+</head>
+
+<body>
+    <div class="cs-container-principal">
+        <div class="cs-container-nav">
+            <div class="cs-container-left-section">
+                <div class="cs-marca">F&M Maquinarias</div>
+                <label for="check" class="cs-menuButton">
+                    <input class="cs-input" id="check" type="checkbox" />
+                    <span class="cs-top"></span>
+                    <span class="cs-mid"></span>
+                    <span class="cs-bot"></span>
+                </label>
+            </div>
+        </div>
+        <div class="cs-container-secundario">
+            <div class="cs-container-menu" id="menu">
+                <div class="cs-container-menu-options">
+                    <a class="cs-menu-options-option-group" href="index.html">
+                        <i class="fa-solid fa-home"></i>
+                        <label class="cs-menu-options-option">Home</label>
+                    </a>
+
+                    <div class="cs-menu-options">
+                        <a class="cs-menu-options-option-group">
+                            <i class="fa-solid fa-folder"></i>
+                            <label class="cs-menu-options-option">Documentos</label>
+                        </a>
+                        <div class="cs-container-categorias">
+                            <a class="cs-menu-options-option-group cs-submenu" href="NewDocumento.html">
+                                <i class="fa-solid fa-file-circle-plus"></i>
+                                <label class="cs-menu-options-option">Agregar Documento</label>
+                            </a>
+                            <a class="cs-menu-options-option-group cs-submenu" href="DocDetails.html">
+                                <i class="fa-solid fa-file-circle-exclamation"></i>
+                                <label class="cs-menu-options-option">Ver Documentos</label>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="cs-menu-options">
+                        <a class="cs-menu-options-option-group">
+                            <i class="fa-solid fa-user-group"></i>
+                            <label class="cs-menu-options-option">Usuarios</label>
+                        </a>
+                        <div class="cs-container-categorias">
+                            <a class="cs-menu-options-option-group cs-submenu" href="NewUser.html">
+                                <i class="fa-solid fa-person-circle-plus"></i>
+                                <label class="cs-menu-options-option">Agregar Usuario</label>
+                            </a>
+                            <a class="cs-menu-options-option-group cs-submenu" href="UserDetails.html">
+                                <i class="fa-solid fa-person-circle-exclamation"></i>
+                                <label class="cs-menu-options-option">Ver Usuarios</label>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cs-container-copy">
+                    <div>&copy; 2024 - F&M Maquinarias</div>
+                </div>
+            </div>
+            <div class="cs-container-vistas">
+                <div class="cs-details">
+                    <h2>Detalles</h2>
+                    <hr />
+                    <table class="cs-info-details">
+                        <tr class="cs-row">
+                            <th>Nombre:</th>
+                            <td>ronald</td>
+                        </tr>
+                        <tr class="cs-row">
+                            <th>Estado:</th>
+                            <td><input type="checkbox" name="" id=""></td>
+                        </tr>
+                        <tr class="cs-row">
+                            <th>Descripcion:</th>
+                            <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, maiores nam? Molestias
+                                nihil inventore eaque neque. Ullam consequatur beatae ipsa nostrum quidem magnam quis illo
+                                odio tempora facere, similique vitae?</td>
+                        </tr>
+                    </table>
+                    <div class="cs-btns-details">
+                        <a class="cs-btns-forms-register" href="NewUser.html"><span onmouseover="this.style.color='#0089ac';"
+                                onmouseout="this.style.color='';">Editar</span></a>
+                        <a class="cs-btns-forms-register" href="UserInfo.html"><span onmouseover="this.style.color='orange';"
+                                onmouseout="this.style.color='';">Regresar</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/js/Home.js"></script>
+</body>
+</html>
