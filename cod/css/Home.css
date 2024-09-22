@@ -693,4 +693,7 @@ body {
         height: 100%;
         z-index: 100;
     }
+    #cs-form-doc-register-right-section{
+        height: 60vh;
+    }
 }
